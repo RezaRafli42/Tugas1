@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tugas</string>
+    <string name="labelapp">PENDAFTARAN</string>
+    <string name="am">About Movie</string>
+    <string name="fr">The Film Rating System</string>
+    <string name="gm">Genre Movie</string>
+    <string name="rm">Review Movie</string>
+    <string name="btnc">CANCEL</string>
+    <string name="btns">Save</string>
+    <string name="tmpt">Tempat Lahir</string>
+    <string name="nd">Nama Depan</string>
+    <string name="nb">Nama Belakang</string>
+    <string name="tgl">Tanggal Lahir</string>
+    <string name="almt">Alamat</string>
+    <string name="jk">Jenis Kelamin</string>
+    <string name="agm">Agama</string>
+    <string name="tlpn">Telepon</string>
+    <string name="em">Email</string>
+    <string name="pw">Password</string>
+    <string name="pwlg">Masukkan Password Kembali</string>
+</resources>

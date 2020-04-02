@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context=".MainActivity">
+    android:background="@drawable/buttoncustom"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/labelapp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">"
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/nd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/nd"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/nb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/nb"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/tmpt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/tmpt"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/tgl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/tgl"
+                    android:textColor="@color/black"
+                    android:inputType="datetime"/>
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/almt"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:ems="10"
+            android:hint="@string/almt"
+            android:textColor="@color/black"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+
+            <TextView
+                android:id="@+id/jk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jk"
+                android:textAlignment="textStart"
+                android:textColor="@color/labelApp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laki-Laki"
+                android:textAlignment="textStart"
+                android:textColor="@color/labelApp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perempuan"
+                android:textAlignment="gravity"
+                android:textColor="@color/labelApp"
+                android:textStyle="bold" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/agm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agm"
+            android:textAlignment="textStart"
+            android:textColor="@color/labelApp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Islam"
+                android:textColor="@color/background"/>
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Kristen"
+                android:textColor="@color/background"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Katolik"
+                android:textColor="@color/background"/>
+
+            <RadioButton
+                android:id="@+id/rb16"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hindu"
+                android:textColor="@color/background"/>
+        </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Buddha"
+            android:textColor="@color/background"/>
+
+        <RadioButton
+            android:id="@+id/rb8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Konghucu"
+            android:textColor="@color/background"/>
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb9"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Buddha"
+                android:textColor="@color/background"/>
+
+            <RadioButton
+                android:id="@+id/rb10"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Konghucu"
+                android:textColor="@color/background"/>
+        </TableRow>
+
+            <RadioButton
+                android:id="@+id/rb11"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Aliran Kepercayaan"
+                android:textColor="@color/background"/>
+
+        <EditText
+            android:id="@+id/tlpn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/tlpn"
+            android:textColor="@color/black"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/em"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/em"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pw"
+            android:textColor="@color/black"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/pwlg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pwlg"
+            android:textColor="@color/black"
+            android:inputType="textPassword"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn2"
+            android:background="@drawable/buttoncustom"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:text="KEMBALI"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:background="@drawable/buttoncustom"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="DAFTAR"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp" />
+
+    </TableRow>
+
+    </LinearLayout>
+
+</ScrollView>
